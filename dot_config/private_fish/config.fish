@@ -1,3 +1,6 @@
+source ~/.config/fish/alias.fish
+source ~/.config/fish/functions.fish
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
     # set gopath and gobin
