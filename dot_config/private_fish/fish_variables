@@ -9,12 +9,13 @@ SETUVAR FZF_LEGACY_KEYBINDINGS:1
 SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
-SETUVAR ZO_CMD:zo
-SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/Users/laserx/\x2elocal/share/z/data
+SETUVAR --export --path GOPATH:/Users/laserx/go
+SETUVAR --export --path PATH:/Users/laserx/\x2emix\x1e/Users/laserx/\x2enix\x2dprofile/bin\x1e/nix/var/nix/profiles/default/bin\x1e/opt/homebrew/bin\x1e/opt/homebrew/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/sbin\x1e/sbin\x1e/Users/laserx/\x2enix\x2dprofile/bin\x1e/nix/var/nix/profiles/default/bin
+SETUVAR --export --path TMUX_PLUGIN_MANAGER_PATH:/Users/laserx/\x2econfig/tmux/tmux\x2econf
+SETUVAR --export XDG_CONFIG_HOME:/Users/laserx/\x2econfig
 SETUVAR Z_DATA_DIR:/Users/laserx/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/Users/laserx\x24
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_berw:brew
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gc:git\x20commit
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2d\x2damend
@@ -31,16 +32,27 @@ SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_gpl:git\x20pull
 SETUVAR _fish_abbr_gr:git\x20rebase\x20\x2di\x20HEAD\x7e15
 SETUVAR _fish_abbr_gs:git\x20status\x20\x2dsb
+SETUVAR _fish_abbr_mux:tmuxinator
+SETUVAR _fish_abbr_sl:ls
+SETUVAR _fish_abbr_ta:tmux\x20attach\x20\x2dt
+SETUVAR _fish_abbr_tad:tmux\x20attach\x20\x2dd\x20\x2dt
+SETUVAR _fish_abbr_tkss:tmux\x20kill\x2dsession\x20\x2dt
+SETUVAR _fish_abbr_tksv:tmux\x20kill\x2dserver
+SETUVAR _fish_abbr_tl:tmux\x20list\x2dsessions
+SETUVAR _fish_abbr_ts:tmux\x20new\x2dsession\x20\x2ds
+SETUVAR _fisher_brgmnn_2F_fish_2D_docker_2D_compose_files:/Users/laserx/\x2econfig/fish/completions/docker\x2dcompose\x2efish
+SETUVAR _fisher_budimanjojo_2F_tmux_2E_fish_files:/Users/laserx/\x2econfig/fish/conf\x2ed/tmux\x2eextra\x2econf\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/tmux\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/tmux\x2eonly\x2econf\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/tmux_abbrs\x2efish
 SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:/Users/laserx/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
 SETUVAR _fisher_decors_2F_fish_2D_colored_2D_man_files:/Users/laserx/\x2econfig/fish/functions/man\x2efish
 SETUVAR _fisher_demartini_2F_emc_2E_fish_files:/Users/laserx/\x2econfig/fish/functions/__emc\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/emc\x2efish\x1e/Users/laserx/\x2econfig/fish/completions/emc\x2efish
 SETUVAR _fisher_jethrokuan_2F_fzf_files:/Users/laserx/\x2econfig/fish/functions/__fzf_cd\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_complete\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_complete_preview\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_find_file\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_get_dir\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_open\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_parse_commandline\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzf_reverse_isearch\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__fzfcmd\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/fzf\x2efish
-SETUVAR _fisher_jethrokuan_2F_z_files:/Users/laserx/\x2econfig/fish/functions/__z\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:/Users/laserx/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/autopair\x2efish
 SETUVAR _fisher_jorgebucaran_2F_hydro_files:/Users/laserx/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/fish_title\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/hydro\x2efish
 SETUVAR _fisher_joseluisq_2F_gitnow_files:/Users/laserx/\x2econfig/fish/functions/__gitnow_config_file\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__gitnow_functions\x2efish\x1e/Users/laserx/\x2econfig/fish/functions/__gitnow_manual\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/gitnow\x2efish\x1e/Users/laserx/\x2econfig/fish/conf\x2ed/gitnow_config\x2efish\x1e/Users/laserx/\x2econfig/fish/completions/__gitnow_completions\x2efish
 SETUVAR _fisher_lilyball_2F_nix_2D_env_2E_fish_files:/Users/laserx/\x2econfig/fish/conf\x2ed/nix\x2denv\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/hydro\x1ejethrokuan/z\x1ejoseluisq/gitnow\x1ejorgebucaran/autopair\x2efish\x1edemartini/emc\x2efish\x1elilyball/nix\x2denv\x2efish\x1edanhper/fish\x2dssh\x2dagent\x1ejethrokuan/fzf\x1edecors/fish\x2dcolored\x2dman
+SETUVAR _fisher_plugins:jorgebucaran/hydro\x1ejoseluisq/gitnow\x1ejorgebucaran/autopair\x2efish\x1edemartini/emc\x2efish\x1elilyball/nix\x2denv\x2efish\x1edanhper/fish\x2dssh\x2dagent\x1ejethrokuan/fzf\x1edecors/fish\x2dcolored\x2dman\x1ebrgmnn/fish\x2ddocker\x2dcompose\x1ebudimanjojo/tmux\x2efish
+SETUVAR _hydro_git_298:master\x20
+SETUVAR _hydro_git_5059:master\x20
 SETUVAR _hydro_git_69462:135\x2dtax\x2dmanuscript\u2022\x20
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
@@ -69,4 +81,8 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR --export fish_tmux_autostart:true
+SETUVAR --export fish_tmux_config:/Users/laserx/\x2econfig/tmux/tmux\x2econf
+SETUVAR --export fish_tmux_default_session_name:\u03bb
 SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/opt/homebrew/sbin
